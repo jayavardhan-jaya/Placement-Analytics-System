@@ -2,7 +2,7 @@ import pandas as pd
 
 df = pd.read_excel("data/raw/placement_1000_rows.csv.xlsx")
 
-print("Original Rows:", len(df))
+print("Original cd..Rows:", len(df))
 
 duplicates = df.sample(n=150, random_state=42)
 
