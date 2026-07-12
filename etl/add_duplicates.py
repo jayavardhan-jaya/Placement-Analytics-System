@@ -1,6 +1,6 @@
 import pandas as pd
 
-
+ 
 df = pd.read_excel("data/raw/placement_data.xlsx")
 
 print("Original Rows :", len(df))
